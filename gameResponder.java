@@ -45,7 +45,7 @@ public class gameResponder {
         int number;
 
         character = (char)(random.nextInt(4) + 'A'); //char between A-D
-        number = random.nextInt(3); //int between 0-16
+        number = random.nextInt(3); //int between 0-3
 
         System.out.println(String.format("%s%d %n", character, number));
     }
